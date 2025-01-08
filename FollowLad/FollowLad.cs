@@ -57,10 +57,18 @@ namespace FollowLad
                 var targetPos = _followTarget.Pos;
                 var myPos = GameController.Player.Pos;
 
-                if (Vector3.Distance(myPos, targetPos) > Settings.FollowDistance.Value)
+                // Check distance to target
+                var distanceToTarget = Vector3.Distance(myPos, targetPos);
+
+                // If within the follow distance, skip actions
+                if (distanceToTarget <= Settings.FollowDistance.Value)
                 {
-                    MoveToward(targetPos);
+                    // Optional: Add a delay or log to indicate "idle" state
+                    return;
                 }
+
+                // If outside the follow distance, move toward the target
+                MoveToward(targetPos);
 
                 // Set the cooldown for the next allowed action
                 _nextAllowedActionTime = DateTime.Now.AddMilliseconds(Settings.ActionCooldown.Value);
@@ -70,6 +78,7 @@ namespace FollowLad
                 // Handle exceptions silently
             }
         }
+
 
         private Entity GetFollowingTarget()
         {

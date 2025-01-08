@@ -13,6 +13,8 @@ namespace FollowLad
         public HotkeyNode TogglePauseHotkey { get; set; } = new HotkeyNode(Keys.P); // Default to P
         public ToggleNode IsPaused { get; set; } = new ToggleNode(false); // Default to not paused
         public RangeNode<int> ActionCooldown { get; set; } = new RangeNode<int>(500, 550, 20000); // Cooldown in milliseconds
+        public RangeNode<int> IdleDistance { get; set; } = new RangeNode<int>(30, 5, 100);
+
 
         public FollowLadSettings()
         {
