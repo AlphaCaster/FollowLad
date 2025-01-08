@@ -1,5 +1,5 @@
-VERY Basic Follower Plugin for Core POE2
-Setup
+# VERY Basic Follower Plugin for Core POE2
+## Setup
 Download github content. Extract contents to the Plugins/Source folder.
 Change settings as you desire. 
 
@@ -7,5 +7,5 @@ Change settings as you desire.
 
 
 
-Usage
+## Usage
 This will follow a target character.
