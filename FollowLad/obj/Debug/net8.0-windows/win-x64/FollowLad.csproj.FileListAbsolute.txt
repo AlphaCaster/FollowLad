@@ -1,0 +1,10 @@
+C:\Users\Jon\Desktop\PoE\Plugins\Temp\FollowLad\FollowLad.deps.json
+C:\Users\Jon\Desktop\PoE\Plugins\Temp\FollowLad\FollowLad.dll
+C:\Users\Jon\Desktop\PoE\Plugins\Source\FollowLad\obj\Debug\net8.0-windows\win-x64\FollowLad.csproj.AssemblyReference.cache
+C:\Users\Jon\Desktop\PoE\Plugins\Source\FollowLad\obj\Debug\net8.0-windows\win-x64\FollowLad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jon\Desktop\PoE\Plugins\Source\FollowLad\obj\Debug\net8.0-windows\win-x64\FollowLad.AssemblyInfoInputs.cache
+C:\Users\Jon\Desktop\PoE\Plugins\Source\FollowLad\obj\Debug\net8.0-windows\win-x64\FollowLad.AssemblyInfo.cs
+C:\Users\Jon\Desktop\PoE\Plugins\Source\FollowLad\obj\Debug\net8.0-windows\win-x64\FollowLad.csproj.CoreCompileInputs.cache
+C:\Users\Jon\Desktop\PoE\Plugins\Source\FollowLad\obj\Debug\net8.0-windows\win-x64\FollowLad.dll
+C:\Users\Jon\Desktop\PoE\Plugins\Source\FollowLad\obj\Debug\net8.0-windows\win-x64\refint\FollowLad.dll
+C:\Users\Jon\Desktop\PoE\Plugins\Source\FollowLad\obj\Debug\net8.0-windows\win-x64\ref\FollowLad.dll
